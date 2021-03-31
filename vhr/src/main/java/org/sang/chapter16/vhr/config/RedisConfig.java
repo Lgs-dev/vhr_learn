@@ -54,6 +54,8 @@ public class RedisConfig {
         return stringRedisTemplate;
     }
 
+
+    
     @Bean
     public RedisTemplate redisTemplate(){
         RedisTemplate<String,Object> redisTemplate
